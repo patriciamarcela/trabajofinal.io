@@ -1,0 +1,132 @@
+body{
+    background-image: url("./fotos/fondo-rosa-hojas.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    background-size:cover;
+    width:100% ;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    background-color:whitesmoke;
+    justify-content:space-between;
+    padding-top: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color:darkorange;
+    border-bottom-style: ridge;
+    /*font-size: 100px;*/
+}
+.logo{
+    align-items:center;
+    padding-left: 20px;
+}   
+.nombre{
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    
+}
+.nombre h1{
+
+    font-size: 4em;
+}
+
+.lista {
+    margin-top: 50px;
+    color:blue;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+.lista li {
+    padding-right: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.lista li a{
+
+    text-decoration:none;
+}    
+
+nav a:hover{
+    color:peru
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.cuando-encontrarnos {
+        /*flex*/
+    display:flex;
+    background-color: peru;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    font-style:italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    width: 100%;
+    height: auto;
+    border: 3px solid deeppink;
+        
+    }
+.direccion{
+    font-style: italic;
+    margin-left: 60px;
+
+
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+    
+table {
+    margin: 60px ;
+    margin-bottom: 90px;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    
+}
+
+th, td {
+    padding: 20px 15px;
+    text-align: center;}
+
+th {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+td {
+    border-bottom: 3px solid palevioletred;
+}
+
+tr:nth-child(even) {
+    background-color: pink;
+}
+footer{   
+    /*boton para regresar a pagina principal cual*/     
+    background-color:whitesmoke;
+    height: 50px;
+    width: 100%; 
+    color: black;
+    font-weight: bold;
+    border-top-width: 3px;
+    border-top-color:deeppink;
+    border-top-style: ridge;
+    left: 0;
+    text-align: center;
+} 

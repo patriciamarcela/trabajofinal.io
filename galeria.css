@@ -1,0 +1,84 @@
+body{
+    min-height: 100vh;
+    width:100% ;
+    position: relative;
+    padding-bottom: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    background-color:whitesmoke;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border-bottom-width: 2px;
+    border-bottom-color:darkorange;
+    border-bottom-style: ridge;
+    /*font-size: 100px;*/
+}
+.logo{
+    align-items:center;
+    padding-left: 20px;
+}   
+.nombre h1{
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    font-size: 4em;
+}
+
+.lista li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.lista li a{
+    text-decoration:none;
+    color: #59595c;
+}    
+nav a:hover{
+    color:rgb(189, 134, 79)
+}
+
+.contenedor{
+    max-width: 1500px;
+}
+/*Usar utilidades adicionales o estilos personalizados para dimensionar el contenido de manera adecuada.*/
+.carousel img{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+} 
+
+footer{   
+    /*boton para regresar a pagina principal cual*/     
+    background-color:whitesmoke;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    position: absolute;
+    width: 100%; 
+    color: black;
+    font-weight: bold;
+    border-top-width: 2px;
+    border-top-color:darkorange;
+    border-top-style: ridge;
+    text-align: center;
+    /*margin-top: 30px;*/
+    
+} 
+  
+    
+
+
+
+

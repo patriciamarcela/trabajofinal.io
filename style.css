@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(241, 211, 216);
+    background-size:cover;
+    position: relative;
+    width:100% ;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    background-color:whitesmoke;
+    justify-content:space-between;
+    padding: 10px;
+    border-bottom-width: 2px;
+    border-bottom-color:darkorange;
+    border-bottom-style: ridge;
+    
+}
+.logo{
+    align-items:center;
+    padding-left: 20px;
+}   
+.nombre{
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    font-size: 2em;
+    /*font-weight: 300;*/
+}
+
+.lista {
+    margin-top: 20px;
+    color:rgb(35, 58, 58);
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+.lista li {
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.lista li a{
+
+    text-decoration:none;
+}    
+
+nav a:hover{
+    color:peru
+}
+
+/*bootstrap*/
+/*.conteiner{
+
+    display:flex
+    justify-contents:center
+    align-items:center
+}
+.fondo{
+    background-color: white;
+    margin-top:5px ;
+    margin-right:1px ;
+    margin-left:2px ;
+    margin-bottom:5px ;
+}*/
+/*.logo{
+    display: flex;
+    justify-content: center;
+}*/
+
+/*.texto h6{
+    color: blue;
+    text-align: center;
+
+}*/
+
+footer{   
+    /*boton para regresar a pagina principal cual*/     
+    background-color:whitesmoke;
+    position: absolute;
+    height: 50px;
+    width: 100%; 
+    color: black;
+    font-weight: bold;
+    border-top-width: 2px;
+    border-top-color:darkorange;
+    border-top-style: ridge;
+    text-align: center;
+    
+} 
+
+
+
+
+
+
